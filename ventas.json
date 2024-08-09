@@ -183,5 +183,21 @@
                 "precio": 20
             }
         ]
+    },
+    {
+        "fechaVenta": "2024-08-09T03:13:05Z",
+        "paciente": {
+            "nombre": "carmen",
+            "direccion": "pinos"
+        },
+        "empleado": {
+            "nombre": "Pedro",
+            "cargo": "Vendedor"
+        },
+        "medicamentosVendidos": {
+            "nombreMedicamento": "Aspirina",
+            "cantidadVendida": 2,
+            "precio": 15
+        }
     }
 ]

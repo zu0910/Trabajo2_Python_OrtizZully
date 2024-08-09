@@ -138,5 +138,19 @@
                 "precioCompra": 20
             }
         ]
+    },
+    {
+        "fechaCompra": "2024-08-09T03:13:43Z",
+        "proveedor": {
+            "nombre": "luis",
+            "contacto": "3212222"
+        },
+        "medicamentosComprados": [
+            {
+                "nombreMedicamento": "Metformina",
+                "cantidadComprada": 3,
+                "precioCompra": 2300
+            }
+        ]
     }
 ]
