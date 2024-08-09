@@ -23,10 +23,5 @@
         "nombre": "Sofia",
         "direccion": "Calle 112",
         "telefono": "555-7890"
-    },
-    {
-        "nombre": "Yessica",
-        "direccion": "Campo Dos",
-        "telefono": "32252100"
     }
 ]

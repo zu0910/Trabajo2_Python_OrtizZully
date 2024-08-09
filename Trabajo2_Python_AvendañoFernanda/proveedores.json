@@ -13,20 +13,5 @@
         "nombre": "ProveedorC",
         "contacto": "contacto@proveedorc.com",
         "direccion": "Calle Proveedor 123"
-    },
-    {
-        "nombre": "Stiven",
-        "contacto": "3223562500",
-        "direccion": "Camilo Torres"
-    },
-    {
-        "nombre": "Luis Miguel ",
-        "contacto": "322012546",
-        "direccion": "Esperanza "
-    },
-    {
-        "nombre": "Fernanda",
-        "contacto": "zullyortiz@gmail.com",
-        "direccion": "Diocesano"
     }
 ]
