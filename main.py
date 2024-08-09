@@ -136,3 +136,5 @@ with open("./proveedores.json","w") as files:
 Venta=json.dumps(Ventas)
 with open("./ventas.json","w") as files:
     files.write(Venta)
+
+#Desarrollado por Zully Fernanda Ortiz Avendaño
