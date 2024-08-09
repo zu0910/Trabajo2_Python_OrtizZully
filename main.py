@@ -79,13 +79,20 @@ while booleano == True:
         ConPro=input(" Ingrese el numero de contacto del proveedor: \n")
         DirePro=input("Ingrese la dirección del proveedor: \n")
 
-        print(" --------------------- Medicamentos Comprados -------------------")
+        for i in medicamentos:
+            print("_________________________________________________________________________")
+            print(" Nombre: ", i["nombre"]," Cantidad: ", i["stock"]," Precio: ", i["precio"])
+            print("_________________________________________________________________________")
 
-        for i in compras:
-           print("Nombre del medicamento: ", i["medicamentosComprados"]["nombreMedicamento"])
-        print("-------------------------------------------")
+        print("------------------------------------------------------------------------------")
+        
+        print("--------- Compra del medicamento -------------------------")
+        NomMedicamento=input("Ingrese el nombre de medicamento: \n")
+        CantCompra=int(input("Ingrese la cantidad que desees comprar: \n"))
+        PreCom=int(input("Ingrese el precio del medicamento"))
         
         proveedores.append({"nombre":NomPro,"contacto":ConPro,"direccion":DirePro})
+        compras.append({"proveedor": {"nombre":NomPro, "contacto":ConPro}, "medicamentosComprados":{"nombreMedicamento":NomMedicamento, "cantidadComprada":CantCompra, "precioCompra":PreCom}})
 
     elif opc==0:
         print("Hasta luego XD")

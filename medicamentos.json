@@ -92,11 +92,16 @@
     {
         "nombre": "Loratadina",
         "precio": 22,
-        "stock": 120,
+        "stock": 117,
         "fechaExpiracion": "2025-02-19T00:00:00Z",
         "proveedor": {
             "nombre": "ProveedorA",
             "contacto": "contacto@proveedora.com"
         }
+    },
+    {
+        "nombre": "Loratadina",
+        "stock": 3,
+        "precio": 22
     }
 ]
