@@ -17,7 +17,7 @@ with open("./proveedores.json", encoding="utf-8") as files:
     proveedores=json.load(files)
 
 with open("./ventas.json", encoding="utf-8") as files:
-    ventas=json.load(files)
+    Ventas=json.load(files)
 
 booleano=True
 while booleano == True:
@@ -66,7 +66,7 @@ while booleano == True:
             i["stock"]=i["stock"]-CantMedi
             Precio=i["precio"]
 
-        ventas.append({"nombre": NomPaci, "direccion": DirePaci})
+        Ventas.append({"nombre": NomPaci, "direccion": DirePaci})
         empleados.append({"nombre": NomEmple, "cargo": CargoEmple})
         medicamentos.append({"nombre": NomMedi, "stock": CantMedi, "precio": Precio})
 
@@ -82,8 +82,8 @@ while booleano == True:
         print(" --------------------- Medicamentos Comprados -------------------")
 
         for i in compras:
-           print("Nombre del medicamento: ", i["nombreMedicamento"], "\nCantidad comprada: ", i["cantidadComprada"], "\nPrecio de compra: ", i["precioCompra"])
-        print("-----------------------------------------------------------------------------------------------------------------------------")
+           print("Nombre del medicamento: ", i["medicamentosComprados"]["nombreMedicamento"])
+        print("-------------------------------------------")
         
         proveedores.append({"nombre":NomPro,"contacto":ConPro,"direccion":DirePro})
 
@@ -112,6 +112,6 @@ Proveedor=json.dumps(proveedores)
 with open("./proveedores.json","w") as files:
     files.write(Proveedor)
 
-Venta=json.dumps(ventas)
+Venta=json.dumps(Ventas)
 with open("./ventas.json","w") as files:
     files.write(Venta)
